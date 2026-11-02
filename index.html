@@ -1,115 +1,111 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dattathreya's student portfolio and projects">
+    <title>Dattathreya's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
+
 <body>
-     <header>
-     <h1> Dattathreya Portfolio</h1>
+    <header>
+        <h1>Dattathreya's Portfolio</h1>
 
-     <nav>
-        <a href="#">About Me</a>
-        <a href="#">Imp links</a>
-        <a herf="#">Contacts</a>
-     </nav>
+        <nav aria-label="Main navigation">
+            <a href="#about">About Me</a>
+            <a href="#study-details">Study Details</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-   </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <h3>Full Name: Peddireddy Dattathreya Reddy</h3>
+            <p>I am a first-year CSE AI&ML student interested in learning
+               programming and building useful projects.</p>
+        </section>
 
+        <section id="study-details">
+            <h2>Study Details</h2>
 
-   <!--main-->
-   <section id="About">
-    <h2>About Me</h2>
-    <h3>Full Name: Peddireddy Dattathreya Reddy</h3>
+            <div class="table-container">
+                <table class="container">
+                    <thead>
+                        <tr>
+                            <th>Standard</th>
+                            <th>School / College</th>
+                            <th>Marks</th>
+                            <th>Total Marks</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
 
-<h3>Date Of Birth:04-January-2009</h3>
-<h3>Addess:1/15 Rajuvaripeta(village),
-    <br>   Chapadu(Mandal),Kadapa(District),Pincode:516355</h3>
-<h3>
+                    <tbody>
+                        <tr>
+                            <td>10th</td>
+                            <td>Bhashyam High School</td>
+                            <td>533</td>
+                            <td>600</td>
+                            <td>88.83%</td>
+                        </tr>
 
-       <section id="Study Details">
-        <div>
-<h2 style="color: black;">Study Details:</h2>
- <table "class=container">
-        <thead >
-        
-            <tr>
-            <th> Standard</th>
-            <th>Name of the school/college</th>
-            <th>Secured Marks</th>
-            <th>Total Marks</th>
-            <th>In %</th>
-            <th>Pincode Of the school/college</th>
-            
-            </tr>
-            <tr>
-                <td>1oth</td>
-                <td>Bhashyam High School</td>
-                <td>533</td>
-                <td>600</td>
-                <td>88.83</td>
-                <td>516355</td>
-            </tr>
-            <tr>
-                <td>12th</td>
-                <td>Sri Chaitanya Juniour College</td>
-                <td>941</td>
-                <td>1000</td>
-                <td>94.1</td>
-                <td>517503</td>
-            </tr>
-            
-            
-            </thead>
-        </table>
-        </div>
+                        <tr>
+                            <td>12th</td>
+                            <td>Sri Chaitanya Junior College</td>
+                            <td>941</td>
+                            <td>1000</td>
+                            <td>94.1%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-   </section>
-   <!-- Project section-->
-    <section id="projects">
-        <h2>My projects</h2>
+        <section id="projects">
+            <h2>My Projects</h2>
 
-     <div id="grid">  
-               <article class="card">
-                <h3>Weather App</h3>
-                <p>Check live weather forecasts.</p>
-                <a href="#">View Project</a>
-               </article>
-               <article class="card">
-                <h3>Action Game</h3>
-                <p>Play a action game in fun time.</p>
-                <a href="#">View Project</a>
-               </article>
-               <article class="card">
-               <h3>simple calculator</h3>
-               <p>handling user inputs and basic math logic with buttons for addition, subtraction, multiplication, and division.</p>
-               <a href="#"> View Project</a>
-                 </article>
-               </article>
-               </article>
+            <div id="grid">
                 <article class="card">
-                <h3>To Do List</h3>
-                <p>manage and track your daily tasks.</p>
-                <a href="#">View Project</a>
-               </article>
-               
+                    <h3>Weather App</h3>
+                    <p>An application idea for checking weather information.</p>
+                    <a href="#contact">View Project Details</a>
+                </article>
 
-               
+                <article class="card">
+                    <h3>Action Game</h3>
+                    <p>A simple game project designed for fun.</p>
+                    <a href="#contact">View Project Details</a>
+                </article>
 
-               
-        </div>
-       </section>
+                <article class="card">
+                    <h3>Simple Calculator</h3>
+                    <p>A calculator that performs addition, subtraction,
+                       multiplication and division.</p>
+                    <a href="#contact">View Project Details</a>
+                </article>
+
+                <article class="card">
+                    <h3>To-Do List</h3>
+                    <p>A project idea to manage and track daily tasks.</p>
+                    <a href="#contact">View Project Details</a>
+                </article>
+            </div>
+        </section>
     </main>
 
-    
-<!--fotter-->
-            <Footer id="Contact"></Footer>
-            <h2>contact Details</h2>
-            <p>connect to me by this</p>
-            <p>phone No:<a href="#">7569889133,9963144886</a></p>
-            <p>Email. ID:<a href="#">sujathapeddireddy@985gmail.com</a></p>
-            <p>insta.ID:<a href="#">nani_reddieeee</a></p>
+    <footer id="contact">
+        <h2>Contact Details</h2>
+        <p>You can connect with me using the details below.</p>
+        <p>Phone: <a href="tel:7569889133">7569889133</a></p>
+        <p>Email: <a href="mailto:sujathapeddireddy@985gmail.com">
+            sujathapeddireddy@985gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/nani_reddieeee/"
+            target="_blank" rel="noopener noreferrer">@nani_reddieeee</a></p>
+    </footer>
 </body>
 </html>
+```
